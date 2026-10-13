@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main-container">
+        <div class="search-bar">
+            <input type="text" class="search-input">
+            <div class="search-icon">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+        <div class="weather-container">
+            <div class="weather-icon">
+                <img class="weather-icon-img" src="sun.jpg"/>
+            </div>
+            <div class="temperature">1°C</div>
+            <div class="city-name">Mumbai</div>
+        </div>
+        <div class="weather-info">
+            <div class="humidity">
+               <i class="fa-solid fa-droplet"></i>
+                <div class="humidity-details">
+                    <span>60%</span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+        
+        <div class="wind-speed">
+            <i class="fa-solid fa-wind"></i>
+                <div class="wind-speed-details">
+                    <span>60 km/h</span>
+                    <p>wind speed</p>
+                    
+                </div>
+        </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
